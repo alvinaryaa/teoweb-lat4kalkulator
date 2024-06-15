@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Buttons</title>  <style>
+    .button-container {
+      text-align: center;  margin: 10px auto;  }
+    .button {
+      margin: 5px;  padding: 10px 20px;  background-color: #eee;  border: 1px solid #ccc;  border-radius: 5px;  cursor: pointer;  }
+  </style>
+</head>
+<body>
+  <h1>Function and Event Handler</h1>  <div class="button-container">  <button class="button" id="btn1" onclick="greeting('Good Morning')">Greeting 1</button>
+    <button class="button" id="btn2" onclick="greeting('Hai')">Greeting 2</button>
+  </div>
+
+  <script type="text/javascript">
+    function greeting(msg) {
+      window.alert(msg);
+    }
+  </script>
+</body>
+</html>
